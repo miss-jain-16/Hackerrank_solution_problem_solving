@@ -1,0 +1,11 @@
+vector<int> findPoint(int px, int py, int qx, int qy) {
+vector<int> total;  
+int gapx=qx-px;
+int gapy=qy-py;
+int totalx=gapx+qx;
+int totaly=gapy+qy;
+total.push_back(totalx);
+total.push_back(totaly);
+return total;
+    
+}
